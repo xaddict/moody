@@ -1,0 +1,31 @@
+html, body {
+	font-family:
+		-apple-system,
+		BlinkMacSystemFont,
+		'avenir next',
+		avenir,
+		helvetica,
+		'helvetica neue',
+		ubuntu,
+		roboto,
+		noto,
+		'segoe ui',
+		arial,
+		sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: orange;
+	transition: color 0.3s ease;
+
+	&:hover {
+		color: darkred;
+	}
+}
+
+#app {
+	padding: 1rem;
+}

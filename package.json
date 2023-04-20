@@ -1,0 +1,22 @@
+{
+	"name": "moody",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:xaddict/moody.git",
+	"author": "Luuk Lamers <darklightdusk@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@vitejs/plugin-vue": "^4.1.0",
+		"@vueuse/core": "^10.0.2",
+		"eslint": "^8.38.0",
+		"pinia": "^2.0.35",
+		"sass": "^1.62.0",
+		"vite": "^4.3.0",
+		"vue": "^3.2.47",
+		"vue-router": "^4.1.6"
+	}
+}
